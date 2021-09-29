@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.csv
+flatten/
+artifacts/
+data/
+deployments/
+whitelist.csv
+cache

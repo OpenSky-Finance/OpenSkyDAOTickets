@@ -1,0 +1,31 @@
+{
+  "name": "openskydao-tickets",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "accounts": "npx hardhat accounts",
+    "clean": "npx hardhat clean"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "@pinata/sdk": "^1.1.23",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "global-agent": "^3.0.0",
+    "hardhat": "^2.5.0",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-deploy": "^0.8.11",
+    "hardhat-deploy-ethers": "*",
+    "inquirer": "^8.1.2",
+    "ipfs-core": "^0.8.0",
+    "keccak256": "^1.0.3",
+    "lowdb": "^1.0.0",
+    "merkletreejs": "^0.2.24"
+  }
+}
